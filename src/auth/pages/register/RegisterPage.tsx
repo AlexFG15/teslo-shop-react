@@ -15,6 +15,7 @@ export const RegisterPage = () => {
 
   const handleRegister = async (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
+    isRegister;
     setIsRegister(true);
 
     const dataForm = new FormData(e.target as HTMLFormElement);

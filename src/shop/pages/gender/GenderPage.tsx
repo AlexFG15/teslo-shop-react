@@ -3,7 +3,7 @@ import { CustomPagination } from "@/components/ui/custom/CustomPagination";
 import { CustomJumbotron } from "@/shop/components/CustomJumbotron";
 import { ProductGrid } from "@/shop/components/ProductGrid";
 import { useProducts } from "@/shop/hooks/useProduct";
-import { useQuery } from "@tanstack/react-query";
+
 import { useParams } from "react-router";
 
 export const GenderPage = () => {

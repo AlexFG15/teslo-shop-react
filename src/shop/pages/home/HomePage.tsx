@@ -1,6 +1,6 @@
 import { CustomPagination } from "@/components/ui/custom/CustomPagination";
 import { CustomJumbotron } from "@/shop/components/CustomJumbotron";
-import ProductCard from "@/shop/components/ProductCard";
+
 import { ProductGrid } from "@/shop/components/ProductGrid";
 import { useProducts } from "@/shop/hooks/useProduct";
 

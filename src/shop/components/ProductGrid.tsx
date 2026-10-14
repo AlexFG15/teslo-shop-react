@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
 
-import { ChevronLeft, ChevronRight, Filter, Grid, List } from "lucide-react";
+import { Filter, Grid, List } from "lucide-react";
 import ProductCard from "./ProductCard";
 import FilterSidebar from "./FilterSidebar";
 import { useSearchParams } from "react-router";
 import { useState } from "react";
-import type { ProductsResponse } from "@/interfaces/products.response";
 import type { Product } from "@/interfaces/product.interface";
 
 interface Props {
